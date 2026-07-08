@@ -34,7 +34,12 @@ header{position:sticky; top:0; z-index:50; background:rgba(18,18,18,.82); backdr
 .nav-links{display:flex; gap:24px; margin-left:14px}
 .nav-links a{color:var(--muted); font-weight:600; font-size:15px; transition:color .15s}
 .nav-links a:hover,.nav-links a.active{color:#fff}
-.nav-cta{margin-left:auto; display:flex; gap:10px; align-items:center}
+.nav-cta{display:flex; gap:10px; align-items:center}
+.lang-toggle{margin-left:auto; display:flex; align-items:center; gap:2px; border:1px solid var(--border); border-radius:999px; padding:3px}
+.lang-toggle a{padding:4px 10px; border-radius:999px; color:var(--muted); font-weight:700; font-size:13px; line-height:1}
+.lang-toggle a.active{background:var(--accent); color:#fff}
+.lang-toggle a:hover{color:#fff}
+.lang-toggle a.active:hover{color:#fff}
 .menu-toggle{display:none; margin-left:auto; background:transparent; border:0; cursor:pointer; padding:10px; flex-direction:column; gap:5px}
 .menu-toggle span{display:block; width:24px; height:2px; background:#fff; border-radius:2px; transition:transform .25s, opacity .25s}
 .menu-toggle.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
