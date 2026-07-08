@@ -1,0 +1,8 @@
+# Build mode — site is noindex until launch.
+User-agent: *
+Disallow: /
+
+# At launch, replace the above with:
+# User-agent: *
+# Allow: /
+# Sitemap: https://DOMAIN_PLACEHOLDER/sitemap.xml
