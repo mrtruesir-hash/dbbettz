@@ -1,8 +1,4 @@
-# Build mode — site is noindex until launch.
 User-agent: *
-Disallow: /
+Allow: /
 
-# At launch, replace the above with:
-# User-agent: *
-# Allow: /
-# Sitemap: https://dbbettz.com/sitemap.xml
+Sitemap: https://dbbettz.com/sitemap.xml

@@ -46,3 +46,22 @@
     panel.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', close); });
   }
 })();
+
+/* ---- sticky mobile registration CTA (bilingual) ---- */
+(function () {
+  var reg = document.querySelector('.nav-cta a.btn-primary');
+  if (!reg || document.querySelector('.sticky-cta')) return;
+  var sw = (document.documentElement.lang || 'sw').indexOf('sw') === 0;
+  var t = sw
+    ? { lbl: 'Bonasi ya karibu', bonus: 'Hadi <b>4,000,000 TZS</b> + spins 150', btn: 'Jisajili' }
+    : { lbl: 'Welcome bonus',    bonus: 'Up to <b>4,000,000 TZS</b> + 150 FS',  btn: 'Register' };
+  var bar = document.createElement('div');
+  bar.className = 'sticky-cta';
+  bar.innerHTML =
+    '<div class="sc-text">' +
+      '<span class="sc-lbl">' + t.lbl + '</span>' +
+      '<span class="sc-bonus">' + t.bonus + '</span>' +
+    '</div>' +
+    '<a class="btn btn-primary sc-btn" href="' + reg.getAttribute('href') + '">' + t.btn + '</a>';
+  document.body.appendChild(bar);
+})();
