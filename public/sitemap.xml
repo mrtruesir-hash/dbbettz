@@ -31,4 +31,14 @@
   <url><loc>https://dbbettz.com/en/terms/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://dbbettz.com/en/privacy/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://dbbettz.com/en/cookies/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://dbbettz.com/blog/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/en/blog/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/authors/ray/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dbbettz.com/en/authors/ray/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dbbettz.com/blog/dbbet-login-problems/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/en/blog/dbbet-login-problems/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/blog/mobile-money-deposit-not-reflecting/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/en/blog/mobile-money-deposit-not-reflecting/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/blog/dbbet-withdrawal-not-received/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/en/blog/dbbet-withdrawal-not-received/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
