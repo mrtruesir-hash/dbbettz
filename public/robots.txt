@@ -5,4 +5,4 @@ Disallow: /
 # At launch, replace the above with:
 # User-agent: *
 # Allow: /
-# Sitemap: https://DOMAIN_PLACEHOLDER/sitemap.xml
+# Sitemap: https://dbbettz.com/sitemap.xml

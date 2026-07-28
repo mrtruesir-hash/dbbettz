@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace DOMAIN_PLACEHOLDER with the real domain at launch. -->
+<!-- Replace dbbettz.com with the real domain at launch. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Swahili (default, root) -->
-  <url><loc>https://DOMAIN_PLACEHOLDER/</loc><xhtml:link rel="alternate" hreflang="sw" href="https://DOMAIN_PLACEHOLDER/"/><xhtml:link rel="alternate" hreflang="en" href="https://DOMAIN_PLACEHOLDER/en/"/><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/how-to-start/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/bonuses/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/betting/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/casino/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/promo-code/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/how-to-bet/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/betting-tax/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/blog/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/about/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/contact/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/responsible-gaming/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/cookies/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dbbettz.com/</loc><xhtml:link rel="alternate" hreflang="sw" href="https://dbbettz.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://dbbettz.com/en/"/><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://dbbettz.com/how-to-start/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dbbettz.com/bonuses/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dbbettz.com/betting/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dbbettz.com/casino/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dbbettz.com/promo-code/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dbbettz.com/how-to-bet/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/betting-tax/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/blog/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/about/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dbbettz.com/contact/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dbbettz.com/responsible-gaming/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dbbettz.com/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dbbettz.com/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dbbettz.com/cookies/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <!-- English (/en/) -->
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/</loc><xhtml:link rel="alternate" hreflang="sw" href="https://DOMAIN_PLACEHOLDER/"/><xhtml:link rel="alternate" hreflang="en" href="https://DOMAIN_PLACEHOLDER/en/"/><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/how-to-start/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/bonuses/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/betting/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/casino/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/promo-code/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/how-to-bet/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/betting-tax/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/blog/</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/about/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/contact/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/responsible-gaming/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/terms/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/privacy/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://DOMAIN_PLACEHOLDER/en/cookies/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://dbbettz.com/en/</loc><xhtml:link rel="alternate" hreflang="sw" href="https://dbbettz.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://dbbettz.com/en/"/><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dbbettz.com/en/how-to-start/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/en/bonuses/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dbbettz.com/en/betting/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dbbettz.com/en/casino/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dbbettz.com/en/promo-code/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dbbettz.com/en/how-to-bet/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/en/betting-tax/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://dbbettz.com/en/blog/</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://dbbettz.com/en/about/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dbbettz.com/en/contact/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dbbettz.com/en/responsible-gaming/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://dbbettz.com/en/terms/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://dbbettz.com/en/privacy/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://dbbettz.com/en/cookies/</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>
