@@ -89,3 +89,23 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 **PUBLICATION STATUS across every entry in this file**: committed locally, not deployed. This line should be updated to "deployed" per-entry once `origin/master` actually advances — do not assume a git commit equals a live change on this project.
 
 **No new pages were created this cycle.** See `DBBETZ-CONTENT-EXPANSION-REPORT.md` for the full honest verdict on why no content cluster was selected.
+
+---
+
+## Part 12 — Conversion & Affiliate UX Optimization (2026-08-20)
+
+See `DBBETZ-CONVERSION-CHANGELOG.md` for the full, dedicated change record (the affiliate-disclosure fix on `/about/`, `/en/about/`, and a sitewide footer line across all 38 pages) — that phase's spec called for its own dedicated changelog file rather than an update to this one.
+
+---
+
+## Part 13 — Second SEO Growth Cycle & Performance Review (2026-08-20)
+
+**DATE:** 2026-08-20
+**URL:** N/A — no code changes made this phase
+**CHANGE:** None. A fresh GSC/Ahrefs/technical pull was performed and compared against the Part 7 baseline.
+**REASON:** Real, honest finding: the pull is identical to Part 7's (same clicks/impressions/CTR/position, same "last update" timestamps) because zero meaningful time has elapsed and nothing from Parts 8–12 has been deployed (`git log origin/master..master` = 13 commits, still unpushed). Making further speculative page changes on top of an already-unevaluated first batch (Part 8) would violate this phase's own explicit rule against over-optimization.
+**EXPECTED IMPACT:** N/A — no change made.
+**RESULT:** Confirmed via fresh regression check: zero technical drift since Part 11. Ahrefs shows small, real backlink/referring-domain growth (271→273 / 220→221) attributable to the known ongoing low-quality spam pattern, not to this engagement's own (unsent) outreach.
+**STATUS:** No new entries to mark as deployed — every prior entry in this file remains "committed locally, not deployed."
+
+**Every publication-status line in this file remains accurate as of this update**: nothing described anywhere above has reached production.

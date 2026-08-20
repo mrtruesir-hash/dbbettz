@@ -24,3 +24,7 @@ Re-pull this exact table every reporting cycle (see `DBBETZ-ANALYTICS-PLAN.md` f
 ## Part 9 note (2026-08-20)
 
 No new rows added this cycle. Part 9 (`DBBETZ-CONTENT-EXPANSION-REPORT.md`) found no evidence-backed new content cluster and created no new pages — the one real change made (`/responsible-gaming/` helpline accuracy fix) has no associated keyword/query evidence to track, and none was invented. Adding a fabricated query row would violate this tracker's own evidence-first purpose.
+
+## Part 13 note (2026-08-20) — performance review
+
+Re-pulled this table's underlying GSC data fresh this phase: **identical to the pull above, same totals, same "last update" timestamps.** No new rows, no updated Trend cells — "INSUFFICIENT HISTORY" stands for every row, unchanged, because no new reporting period actually exists yet (the site's real GSC history is still only ~24 days old, and nothing from Parts 8–12 has been deployed to have had any effect regardless). See `DBBETZ-SEO-PERFORMANCE-REVIEW.md` for the full, honest reasoning. Re-run this tracker's refresh once the deployment gap closes and real time has passed since.
