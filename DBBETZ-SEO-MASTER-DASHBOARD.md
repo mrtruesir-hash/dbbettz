@@ -2,25 +2,17 @@
 
 **Snapshot date: 2026-08-20.** One page, one truth. Re-pull every number below on the cadence in `DBBETZ-TECHNICAL-SEO-MONITORING.md` and `DBBETZ-MASTER-SEO-CHECKLIST.md` — do not let this page go stale and get treated as current.
 
-## 0. THE ONE THING THAT MATTERS MOST RIGHT NOW
+## 0. THE ONE THING THAT MATTERED MOST — NOW RESOLVED
 
-**`origin/master` is at `f6bfc59` — the exact state before this 14-part engagement began. Local `master` is 14 commits ahead, entirely unpushed.** Every number below except the "LIVE (production)" column reflects real, tested, committed work that has never reached the public site. This is not a finding to re-discover next month — it is the standing, single blocker on everything in this dashboard. Check it fresh, every time:
-
-```
-git fetch origin
-git log origin/master..master --oneline
-```
-
-If that command returns nothing, the gap has closed — update this file's status column and proceed to the deployment checklist and indexing requests. Until then, treat every "PENDING DEPLOY" row as not yet real to a user or to Google.
+**DEPLOYED 2026-08-20.** `origin/master` was pushed from `f6bfc59` to `15058dd` (15 commits, Parts 1–14) with Ray's explicit, same-turn authorization. Verified live via direct production checks (sitemap comment gone, `/betting-tax/` calculator present, `/betting/` NBC branding present, `/blog/` relabeled, `/responsible-gaming/` shows the real helpline, `/about/` shows the real disclosure, sitewide footer disclosure present, homepage links to `/betting-tax/`). The engagement's central blocker is closed. Next real actions: submit indexing requests for the 4 real gap URLs (§3), then follow `DBBETZ-90-DAY-SEO-ROADMAP.md` days 1–7 onward. Keep checking `git log origin/master..master --oneline` before every future assumption — this dashboard goes stale the moment new local work isn't pushed.
 
 ## 1. Deployment Status
 
 | | Value |
 |---|---|
-| `origin/master` | `f6bfc59` — "Remove live-odds remnants and run the performance pass" (pre-engagement baseline) |
-| Local `master` | `8dc15cb` — Part 13 |
-| Unpushed commits | 14 (Parts 1 through 13, in order — see `DBBETZ-SEO-CHANGELOG.md` for the itemized list) |
-| Live on production right now | Only the pre-engagement baseline. Confirmed directly: sitemap.xml still carries the stale pre-launch comment, `/betting-tax/` has no calculator, `/betting/`'s title lacks "NBC", `/about/` still shows the old placeholder sentence. |
+| `origin/master` | `15058dd` — Part 14 (matches local `HEAD`) |
+| Deployed | 2026-08-20, verified live |
+| Live on production right now | Everything through Part 14's documentation phase (Part 14 itself shipped no site code — only Parts 1–13's real changes affect the live site) |
 | Working tree | Clean — nothing uncommitted |
 
 ## 2. Organic Performance (Google Search Console, `sc-domain:dbbettz.com`)

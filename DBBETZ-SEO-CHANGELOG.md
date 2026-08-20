@@ -1,6 +1,8 @@
 # DBBETZ.COM — SEO Changelog
 
-All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally, not deployed — matches the standing rule never to deploy without explicit, same-turn authorization.
+All changes from the first growth cycle (Part 8) through Part 14, 2026-08-20.
+
+**DEPLOYED 2026-08-20.** `origin/master` pushed from `f6bfc59` to `15058dd` (15 commits: Parts 1–14) with Ray's explicit, same-turn authorization. Verified live via direct production checks: sitemap comment gone, `/betting-tax/` calculator present, `/betting/` NBC branding present, `/blog/` relabeled "Msaada," `/responsible-gaming/` shows the 199 Afya helpline, `/about/` shows the real disclosure, sitewide footer disclosure present, homepage links to `/betting-tax/`. Every "committed locally, not deployed" line below is now superseded — see the per-entry status updates.
 
 ---
 
@@ -56,7 +58,9 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 - **`/blog/dbbet-login-problems/` + `/en/`**: no content change. Same indexing-not-content diagnosis as `/betting-tax/`.
 - **`/promo-code/`, `/bonuses/`, `/how-to-bet/`, `/blog/mobile-money-deposit-not-reflecting/`**: no changes — real evidence didn't justify one this cycle (see `DBBETZ-FIRST-GROWTH-CYCLE.md` §3).
 - **Homepage betting-teaser section** (the "Weka dau kwenye mpira" card, separate from `/betting/` itself): left with the existing "Ligi Kuu Bara" wording, no "NBC" added — a deliberate scope boundary to keep this a small batch rather than cascading the same edit everywhere it could theoretically apply.
-- **No indexing request submitted** for `/betting-tax/` or `/blog/dbbet-login-problems/` — both require deployment first, which is outside this cycle's authority (never deploy without fresh, explicit, same-turn authorization).
+- **Indexing request**: not yet submitted for `/betting-tax/` or `/blog/dbbet-login-problems/` (both languages) — now that deployment has happened (2026-08-20), this is the next real action per `DBBETZ-90-DAY-SEO-ROADMAP.md` days 1–7.
+
+**PUBLICATION STATUS (all 5 changes above): DEPLOYED 2026-08-20.**
 
 ---
 
@@ -70,13 +74,13 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 **CHANGE:** Added two new, real, verified resources to the "Wapi kupata msaada" (Where to get help) list: 199 Afya Call Center (real national 24/7 helpline, moh.go.tz) and the Gaming Board of Tanzania's self-exclusion programme + "Makinika Kijana, Kubeti Sio Ajira" campaign (gamingboard.go.tz). Existing UK resources (GamCare, BeGambleAware) kept but now correctly labeled "(Uingereza)"/"(UK)" rather than implied general-international.
 **SOURCES:** moh.go.tz, gamingboard.go.tz, findahelpline.com/countries/tz/topics/gambling (verified directly), thecitizen.co.tz (real article confirming GBT intervention), focusgn.com (independent confirmation of the campaign name)
 **INTERNAL LINKS:** Unchanged — page already linked from footer sitewide and from `/betting-tax/`
-**PUBLICATION STATUS:** Committed locally, not deployed
+**PUBLICATION STATUS:** DEPLOYED 2026-08-20
 
 **DATE:** 2026-08-20
 **URL:** `/en/responsible-gaming/`
 **PAGE TYPE / PURPOSE / KEYWORDS / SOURCES / INTERNAL LINKS:** Same as above, English mirror
 **CHANGE:** Same real facts added in English, with UK/international labels
-**PUBLICATION STATUS:** Committed locally, not deployed
+**PUBLICATION STATUS:** DEPLOYED 2026-08-20
 
 ---
 
@@ -84,9 +88,7 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 
 **No code changes made this phase** — see `DBBETZ-PART-11-IMPLEMENTATION-REPORT.md` §22 for why: the real technical debt found in a fresh live-production crawl is already fixed in the 11 unpushed local commits below; writing new fixes for already-resolved issues would be redundant.
 
-**CRITICAL FINDING, logged here for visibility**: `origin/master` is at `f6bfc59`, the pre-Part-1 baseline. Every entry above this line in this changelog — Parts 2 through 10 — describes a real, tested, committed change that **is not yet live**. Confirmed directly against production: live sitemap.xml still has the stale launch comment, `/betting-tax/` has no calculator, `/betting/`'s title lacks "NBC," `/responsible-gaming/` still lists only UK helplines, `/blog/` is still labeled "Blogu."
-
-**PUBLICATION STATUS across every entry in this file**: committed locally, not deployed. This line should be updated to "deployed" per-entry once `origin/master` actually advances — do not assume a git commit equals a live change on this project.
+**FINDING AT THE TIME THIS SECTION WAS WRITTEN (2026-08-20, before deploy)**: `origin/master` was at `f6bfc59`, the pre-Part-1 baseline. Every entry above this line in this changelog — Parts 2 through 10 — described a real, tested, committed change that was not yet live. **Superseded 2026-08-20**: deployed, see the banner at the top of this file.
 
 **No new pages were created this cycle.** See `DBBETZ-CONTENT-EXPANSION-REPORT.md` for the full honest verdict on why no content cluster was selected.
 
