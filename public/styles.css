@@ -368,3 +368,26 @@ a.chip:hover{background:var(--border-accent); color:#fff}
 .related a{display:flex; align-items:center; gap:12px; padding:14px 0; font-weight:600; font-size:15px}
 .related a:hover{color:var(--accent)}
 .related a .arw{margin-left:auto; color:var(--accent); flex:0 0 auto}
+
+/* ---- tax calculator ---- */
+.tax-calc{background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; margin:0 0 20px}
+.tax-calc h3{font-size:17px; margin-bottom:6px}
+.tax-calc .tc-sub{color:var(--muted); font-size:13.5px; line-height:1.55; margin:0 0 18px}
+.tax-calc .tc-sub b{color:var(--text)}
+.tax-calc .tc-row{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:6px}
+.tax-calc .tc-field{flex:1 1 180px; min-width:150px}
+.tax-calc label{display:block; font-size:13px; font-weight:700; color:var(--muted); margin-bottom:6px}
+.tax-calc input{width:100%; background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius); color:var(--text); font-family:var(--font); font-size:15px; padding:12px 14px}
+.tax-calc input:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
+.tax-calc input::placeholder{color:var(--muted); opacity:.65}
+.tax-calc .tc-err{color:var(--accent); font-size:13px; margin:10px 0 0; display:none}
+.tax-calc .tc-err.show{display:block}
+.tax-calc .tc-result{background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius); padding:16px 18px; margin-top:16px; display:none}
+.tax-calc .tc-result.show{display:block}
+.tax-calc .tc-result .tc-line{display:flex; justify-content:space-between; gap:12px; font-size:14.5px; padding:6px 0; color:var(--muted)}
+.tax-calc .tc-result .tc-line b{color:var(--text); font-variant-numeric:tabular-nums; white-space:nowrap}
+.tax-calc .tc-result .tc-final{border-top:1px solid var(--border); margin-top:4px; padding-top:12px; color:var(--text); font-weight:700}
+.tax-calc .tc-result .tc-final b{color:var(--accent); font-size:16.5px}
+.tax-calc .tc-hint{color:var(--muted); font-size:12.5px; line-height:1.55; margin:14px 0 0}
+.tax-calc + .tax-calc{margin-top:-4px}
+@media(max-width:640px){.tax-calc .tc-row{flex-direction:column; gap:12px}}

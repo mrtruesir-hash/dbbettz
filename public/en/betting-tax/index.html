@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Betting Tax in Tanzania Explained</title>
-<meta name="description" content="How betting tax works in Tanzania: withholding tax on winnings and the proposed excise duty on your stake. A plain-language guide for players — not tax advice.">
+<meta name="description" content="How betting tax works in Tanzania: withholding tax on winnings and the 5% excise duty on your stake. A plain-language guide for players — not tax advice.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap">
@@ -21,12 +21,12 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="DBBet Tanzania">
 <meta property="og:title" content="Betting Tax in Tanzania Explained">
-<meta property="og:description" content="How betting tax works in Tanzania: withholding tax on winnings and the proposed excise duty on your stake. A plain-language guide for players.">
+<meta property="og:description" content="How betting tax works in Tanzania: withholding tax on winnings and the 5% excise duty on your stake. A plain-language guide for players.">
 <meta property="og:url" content="https://dbbettz.com/en/betting-tax/">
 <meta property="og:image" content="https://dbbettz.com/og-default.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Betting Tax in Tanzania Explained">
-<meta name="twitter:description" content="Withholding tax on winnings and the proposed excise duty on your stake — a plain-language guide for players.">
+<meta name="twitter:description" content="Withholding tax on winnings and the 5% excise duty on your stake — a plain-language guide for players.">
 <meta name="twitter:image" content="https://dbbettz.com/og-default.jpg">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dbbettz.com/en/"},{"@type":"ListItem","position":2,"name":"Betting tax","item":"https://dbbettz.com/en/betting-tax/"}]}</script>
 </head>
@@ -64,17 +64,55 @@
  <p><b>How much:</b> Withholding tax on winnings is charged under section 31A of the Gaming Act. Published sources disagree on the exact percentage, and the rate has been changed before — so we deliberately do not quote a figure here. Confirm the current rate with the TRA or a qualified adviser before relying on it.</p>
  <p><b>Example (illustrative only):</b> if the withholding rate is 20% and you win TZS 100,000 in profit, about TZS 20,000 is withheld and around TZS 80,000 reaches your account. (Figures are illustrative — confirm the exact rate.)</p>
 
+ <div class="tax-calc" id="tc-win">
+  <h3>Estimate the tax on your winnings</h3>
+  <p class="tc-sub">The withholding-tax rate on winnings is <b>not independently confirmed by us</b> — published sources disagree. Check the real rate in your DBBet cashier, or with the TRA, then enter your own figure below.</p>
+  <div class="tc-row">
+   <div class="tc-field">
+    <label for="tc-win-input">Winnings before tax (TZS)</label>
+    <input type="number" id="tc-win-input" inputmode="decimal" min="0" step="any" placeholder="e.g. 100000">
+   </div>
+   <div class="tc-field">
+    <label for="tc-rate-input">Withholding-tax rate (%)</label>
+    <input type="number" id="tc-rate-input" inputmode="decimal" min="0" max="100" step="any" placeholder="e.g. 15">
+   </div>
+  </div>
+  <p class="tc-err" id="tc-win-err">Enter a winnings amount above zero and a tax rate between 0 and 100.</p>
+  <div class="tc-result" id="tc-win-result">
+   <div class="tc-line"><span>Withholding tax deducted</span><b id="tc-win-tax">—</b></div>
+   <div class="tc-line tc-final"><span>Amount you'd receive</span><b id="tc-win-net">—</b></div>
+  </div>
+  <p class="tc-hint">This is an estimate based on the figures you enter — not an official tax rate.</p>
+ </div>
+
  <h2>2. Excise duty on your stake</h2>
- <p>Alongside this, an <b>excise duty on the amount you stake</b> — every bet you place — is scheduled. Once in force, it is deducted automatically from the stake before your bet is placed, so a small part of each bet goes to tax before the game starts. You don't file this yourself; it's handled by the operator.</p>
- <p><b>How much:</b> An excise duty on betting stakes has been reported, but we have not been able to confirm either the rate or whether it is currently in force. Check the position with the TRA before relying on any figure.</p>
- 
+ <p>Alongside this, an <b>excise duty on the amount you stake</b> — every bet you place — applies. It is deducted automatically from the stake before your bet is placed, so a small part of each bet goes to tax before the game starts. You don't file this yourself; it's handled by the operator.</p>
+ <p><b>How much:</b> Under Tanzania's 2026/27 government budget, a <b>5%</b> excise duty on the value of every bet took effect on <b>1 July 2026</b>. This rate is confirmed by multiple independent sources, including Tanzania's <a href="https://dailynews.co.tz/tanzania-targets-gaming-with-new-5-percent-betting-tax/" rel="nofollow noopener" target="_blank">Daily News</a>. Like any tax, it can change — confirm with the TRA if you're unsure.</p>
+ <p><b>Example:</b> stake TZS 10,000 and about TZS 500 goes to excise duty, leaving TZS 9,500 actually staked. Use the calculator below for your own amount.</p>
+
+ <div class="tax-calc" id="tc-stake">
+  <h3>Stake excise duty calculator</h3>
+  <p class="tc-sub">Rate: <b>5%</b> of the stake amount, as confirmed above.</p>
+  <div class="tc-row">
+   <div class="tc-field">
+    <label for="tc-stake-input">Stake amount (TZS)</label>
+    <input type="number" id="tc-stake-input" inputmode="decimal" min="0" step="any" placeholder="e.g. 10000">
+   </div>
+  </div>
+  <p class="tc-err" id="tc-stake-err">Enter a valid amount greater than zero.</p>
+  <div class="tc-result" id="tc-stake-result">
+   <div class="tc-line"><span>Excise duty (5%)</span><b id="tc-stake-duty">—</b></div>
+   <div class="tc-line tc-final"><span>Amount actually staked</span><b id="tc-stake-net">—</b></div>
+  </div>
+ </div>
+
 
  <h2>What this means for you</h2>
  <ul>
  <li><b>You don't usually file anything.</b> Both taxes are typically deducted at source by the operator, so you don't have to submit them yourself.</li>
  <li><b>"Winnings" means profit.</b> Withholding tax applies to the amount you win, not the stake you already paid.</li>
  <li><b>Your withdrawal is already net of tax.</b> The amount you cash out has had withholding tax applied.</li>
- <li><b>Stake excise (if enacted) is taken from the stake.</b> A small part of each bet goes to tax before the game starts.</li>
+ <li><b>Stake excise (5%) is taken from the stake.</b> A small part of each bet goes to tax before the game starts.</li>
  <li><b>Rates change.</b> Tanzania's betting taxes have been adjusted several times — check the current figures before relying on them.</li>
  </ul>
 
