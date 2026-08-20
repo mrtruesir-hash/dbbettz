@@ -1,0 +1,59 @@
+# DBBETZ.COM — SEO Changelog
+
+All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally, not deployed — matches the standing rule never to deploy without explicit, same-turn authorization.
+
+---
+
+**DATE:** 2026-08-20
+**URL:** `/betting/`
+**CHANGE:** Title, meta description, OG/Twitter tags, H1, and one card added "NBC" branding to Ligi Kuu Bara ("Ligi Kuu Bara NBC")
+**REASON:** Real GSC evidence (Part 7): the query "bet on nbc premier league" ranks position 4.7 and "bet on nbc league" ranks position 3.0, both with real impressions, but the page never named the league by its real sponsor (National Bank of Commerce, verified via WebSearch). Fresh-verified fact, not assumed.
+**EXPECTED IMPACT:** Improved CTR on two queries already ranking near page one; no ranking-position claim made.
+**TEST RESULT:** PASS — rendered correctly in browser test, no console errors, `<div>` tag balance verified programmatically (35/35).
+
+---
+
+**DATE:** 2026-08-20
+**URL:** `/how-to-start/`
+**CHANGE:** Title, meta description, OG/Twitter tags, H1, and intro paragraph updated to explicitly include "Kujisajili" (register)
+**REASON:** Part 4's keyword research found "jinsi ya kujisajili dbbet tanzania" is a real, genuinely unclaimed query pattern — the single best content opportunity identified in this entire engagement — but the page's own copy never used the literal word "kujisajili," only "kuanza" (start).
+**EXPECTED IMPACT:** Better search-intent match for the real, unclaimed query; existing registration content unchanged, just relabeled accurately.
+**TEST RESULT:** PASS — verified via full DOM text extraction (screenshot tool hit a known transient rendering glitch, documented rather than hidden), no console errors, `<div>` balance verified (71/71).
+
+---
+
+**DATE:** 2026-08-20
+**URL:** `/en/how-to-start/`
+**CHANGE:** H1 and intro paragraph updated from "How to start" to "How to register and start"
+**REASON:** Consistency with the Swahili fix; lower priority since the real unclaimed-query finding was Swahili-specific, but the English title/meta already covered "register" adequately (no title/meta change needed there).
+**EXPECTED IMPACT:** Minor — parity with the Swahili page's framing.
+**TEST RESULT:** PASS — `<div>` balance verified (71/71).
+
+---
+
+**DATE:** 2026-08-20
+**URL:** `/` (home)
+**CHANGE:** Added one contextual link to `/betting-tax/` ("Kodi ya kubeti Tanzania") in the existing Mobile Money section, alongside the existing deposit/withdraw guide link
+**REASON:** Real internal-link audit found the homepage — DBBETZ's highest-authority internal page — linked to every major section except `/betting-tax/`, which is both the site's strongest linkable asset and one of two pages currently outside Google's index entirely.
+**EXPECTED IMPACT:** Stronger internal signal toward `/betting-tax/`, helping future crawl/indexing once deployed.
+**TEST RESULT:** PASS — link renders correctly, navigates to the correct URL, `<div>` balance verified (66/66), no console errors.
+
+---
+
+**DATE:** 2026-08-20
+**URL:** `/en/` (home)
+**CHANGE:** Added one contextual link to `/en/betting-tax/` ("Tanzania betting tax") in the Mobile Money section, mirroring the Swahili fix
+**REASON:** Same as above, English parity.
+**EXPECTED IMPACT:** Same as above.
+**TEST RESULT:** PASS — `<div>` balance verified (66/66).
+
+---
+
+## Changes considered and explicitly NOT made this cycle
+
+- **`/betting-tax/` + `/en/betting-tax/` content**: no change. Real problem is indexing (never crawled), not content — already strengthened substantially in Part 5. Adding more content would not address the actual cause.
+- **`/blog/dbbet-withdrawal-not-received/` + `/en/`**: no change. Real evidence (best-performing page, already-strong schema/FAQ) means the honest, defensible move is to protect it, not risk it with an unforced edit.
+- **`/blog/dbbet-login-problems/` + `/en/`**: no content change. Same indexing-not-content diagnosis as `/betting-tax/`.
+- **`/promo-code/`, `/bonuses/`, `/how-to-bet/`, `/blog/mobile-money-deposit-not-reflecting/`**: no changes — real evidence didn't justify one this cycle (see `DBBETZ-FIRST-GROWTH-CYCLE.md` §3).
+- **Homepage betting-teaser section** (the "Weka dau kwenye mpira" card, separate from `/betting/` itself): left with the existing "Ligi Kuu Bara" wording, no "NBC" added — a deliberate scope boundary to keep this a small batch rather than cascading the same edit everywhere it could theoretically apply.
+- **No indexing request submitted** for `/betting-tax/` or `/blog/dbbet-login-problems/` — both require deployment first, which is outside this cycle's authority (never deploy without fresh, explicit, same-turn authorization).
