@@ -78,4 +78,14 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 **CHANGE:** Same real facts added in English, with UK/international labels
 **PUBLICATION STATUS:** Committed locally, not deployed
 
+---
+
+## Part 11 — Technical SEO Monitoring & Crawl Health (2026-08-20)
+
+**No code changes made this phase** — see `DBBETZ-PART-11-IMPLEMENTATION-REPORT.md` §22 for why: the real technical debt found in a fresh live-production crawl is already fixed in the 11 unpushed local commits below; writing new fixes for already-resolved issues would be redundant.
+
+**CRITICAL FINDING, logged here for visibility**: `origin/master` is at `f6bfc59`, the pre-Part-1 baseline. Every entry above this line in this changelog — Parts 2 through 10 — describes a real, tested, committed change that **is not yet live**. Confirmed directly against production: live sitemap.xml still has the stale launch comment, `/betting-tax/` has no calculator, `/betting/`'s title lacks "NBC," `/responsible-gaming/` still lists only UK helplines, `/blog/` is still labeled "Blogu."
+
+**PUBLICATION STATUS across every entry in this file**: committed locally, not deployed. This line should be updated to "deployed" per-entry once `origin/master` actually advances — do not assume a git commit equals a live change on this project.
+
 **No new pages were created this cycle.** See `DBBETZ-CONTENT-EXPANSION-REPORT.md` for the full honest verdict on why no content cluster was selected.
