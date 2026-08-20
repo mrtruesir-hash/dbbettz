@@ -57,3 +57,25 @@ All changes from the first growth cycle (Part 8), 2026-08-20. Committed locally,
 - **`/promo-code/`, `/bonuses/`, `/how-to-bet/`, `/blog/mobile-money-deposit-not-reflecting/`**: no changes — real evidence didn't justify one this cycle (see `DBBETZ-FIRST-GROWTH-CYCLE.md` §3).
 - **Homepage betting-teaser section** (the "Weka dau kwenye mpira" card, separate from `/betting/` itself): left with the existing "Ligi Kuu Bara" wording, no "NBC" added — a deliberate scope boundary to keep this a small batch rather than cascading the same edit everywhere it could theoretically apply.
 - **No indexing request submitted** for `/betting-tax/` or `/blog/dbbet-login-problems/` — both require deployment first, which is outside this cycle's authority (never deploy without fresh, explicit, same-turn authorization).
+
+---
+
+## Part 9 — Targeted Content Expansion (2026-08-20)
+
+**DATE:** 2026-08-20
+**URL:** `/responsible-gaming/`
+**PAGE TYPE:** Existing trust/informational page (unchanged URL, unchanged structure)
+**PURPOSE:** Replace an incomplete "Tanzania has no dedicated national gambling helpline" framing with real, sourced Tanzania-specific resources
+**KEYWORDS/TOPICS:** No keyword target — this is a factual-accuracy/trust fix, not an SEO-targeted change. No query evidence exists for this topic (see `DBBETZ-SEO-QUERY-TRACKER.md` Part 9 note).
+**CHANGE:** Added two new, real, verified resources to the "Wapi kupata msaada" (Where to get help) list: 199 Afya Call Center (real national 24/7 helpline, moh.go.tz) and the Gaming Board of Tanzania's self-exclusion programme + "Makinika Kijana, Kubeti Sio Ajira" campaign (gamingboard.go.tz). Existing UK resources (GamCare, BeGambleAware) kept but now correctly labeled "(Uingereza)"/"(UK)" rather than implied general-international.
+**SOURCES:** moh.go.tz, gamingboard.go.tz, findahelpline.com/countries/tz/topics/gambling (verified directly), thecitizen.co.tz (real article confirming GBT intervention), focusgn.com (independent confirmation of the campaign name)
+**INTERNAL LINKS:** Unchanged — page already linked from footer sitewide and from `/betting-tax/`
+**PUBLICATION STATUS:** Committed locally, not deployed
+
+**DATE:** 2026-08-20
+**URL:** `/en/responsible-gaming/`
+**PAGE TYPE / PURPOSE / KEYWORDS / SOURCES / INTERNAL LINKS:** Same as above, English mirror
+**CHANGE:** Same real facts added in English, with UK/international labels
+**PUBLICATION STATUS:** Committed locally, not deployed
+
+**No new pages were created this cycle.** See `DBBETZ-CONTENT-EXPANSION-REPORT.md` for the full honest verdict on why no content cluster was selected.

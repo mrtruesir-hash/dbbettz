@@ -9,7 +9,7 @@
 | Support — deposit | dbbet deposit problem | Informational/urgent | /blog/mobile-money-deposit-not-reflecting/ | 0 | 4 | 0% | 17.3 | INSUFFICIENT HISTORY | P1 | Real impressions, zero clicks at position 17 — outside typical first-page visibility. Monitor after the Part 4 on-page depth pass; re-check position next cycle. |
 | Support — withdrawal | dbbet withdrawal problem / dbbet withdrawal time | Informational/urgent | /blog/dbbet-withdrawal-not-received/ | 0 (this query) | 3+2=5 | 0% | 21.7 / 15.0 | INSUFFICIENT HISTORY | P1 | This is the page's real strength (see page-level data: 3 real clicks came from elsewhere on this same page) — these two named queries just haven't converted to clicks yet. Watch position trend. |
 | Onboarding | dp bet | Transactional (likely a truncated/branded variant search) | /how-to-start/ or / | 0 | 3 | 0% | 8.0 | INSUFFICIENT HISTORY | P2 | Ambiguous query — verify in next cycle whether this is a real branded-navigational search or noise before acting on it. |
-| Betting/Football | bet on nbc premier league / bet on nbc league | Informational/commercial | /betting/ | 0 | 3+2=5 | 0% | 4.7 / 3.0 | INSUFFICIENT HISTORY | P2 | **Real, notable finding**: these two queries already rank at position 3–5 — genuinely close to page-one visibility — but generate zero clicks. Worth a title/snippet review next cycle; this is the closest thing to low-hanging fruit in the current query set. |
+| Betting/Football | bet on nbc premier league / bet on nbc league | Informational/commercial | /betting/ | 0 | 3+2=5 | 0% | 4.7 / 3.0 | INSUFFICIENT HISTORY | P2 | **Real, notable finding**: these two queries already rank at position 3–5 — genuinely close to page-one visibility — but generate zero clicks. **Part 8 (2026-08-20): added real "NBC" branding to title/meta/H1** (the page never named the league by its real sponsor). Committed, not deployed — re-check CTR once live. |
 | Branded — general | michezo ya kubet | Navigational/branded (Swahili, "games to bet") | / (home) | 0 | 10 | 0% | 62.5 | INSUFFICIENT HISTORY | P3 | Highest-impression query in the dataset, but position 62.5 — far outside any realistic click range. Reflects the real branded clone-swarm competition documented in Part 6, not a DBBETZ-fixable on-page issue. |
 | Branded — promo code | dbbet promo code / db bet promo code | Commercial-investigation | /promo-code/ | 0 | 1+1=2 | 0% | 29.0 / 5.0 | INSUFFICIENT HISTORY | P3 | Low volume this window; "db bet promo code" at position 5 is a real bright spot worth re-checking next cycle. |
 
@@ -20,3 +20,7 @@ None of the 9 real clicks this period came from any of the named queries above �
 ## What to do with this tracker going forward
 
 Re-pull this exact table every reporting cycle (see `DBBETZ-ANALYTICS-PLAN.md` for the monthly cadence). Once a second full period of data exists, replace "INSUFFICIENT HISTORY" with real trend arrows — not before.
+
+## Part 9 note (2026-08-20)
+
+No new rows added this cycle. Part 9 (`DBBETZ-CONTENT-EXPANSION-REPORT.md`) found no evidence-backed new content cluster and created no new pages — the one real change made (`/responsible-gaming/` helpline accuracy fix) has no associated keyword/query evidence to track, and none was invented. Adding a fabricated query row would violate this tracker's own evidence-first purpose.
