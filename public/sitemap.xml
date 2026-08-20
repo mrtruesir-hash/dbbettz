@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace dbbettz.com with the real domain at launch. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Swahili (default, root) -->
   <url><loc>https://dbbettz.com/</loc><xhtml:link rel="alternate" hreflang="sw" href="https://dbbettz.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://dbbettz.com/en/"/><changefreq>daily</changefreq><priority>1.0</priority></url>
