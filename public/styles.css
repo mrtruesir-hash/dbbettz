@@ -694,3 +694,14 @@ a.aviator-art{display:block; width:100%}
 .pay-tables .data-table tbody th{white-space:normal; font-weight:600; color:var(--muted)}
 @media (max-width:480px){.pay-tables .data-table th,.pay-tables .data-table td{padding:10px 9px} .pay-tables .data-table table{font-size:13.5px}}
 .pay-steps{margin:6px 0 24px}
+
+/* How to start: owner's framed phone screenshots (19 Nov 2026). The images already contain the phone frame. */
+.shot-mocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;align-items:start;max-width:1000px;margin:22px auto 0}
+.shot-mocks .shot-step{text-align:center}
+.shot-mock{display:block;width:100%;max-width:240px;height:auto;aspect-ratio:1/1;margin:0 auto;border-radius:16px;background:#151515}
+@media (max-width:560px){.shot-mocks{grid-template-columns:repeat(2,1fr);gap:12px}}
+
+/* Aviator page: landscape hero (the 16:9 "60 Flights" banner moved into the hero, 19 Nov 2026) */
+.page-hero-media.wide{aspect-ratio:16/10; width:100%; max-width:640px; max-height:none}
+.page-hero-media.wide img{object-position:62% 45%}
+@media (min-width:900px){.page-hero-media.wide{max-width:560px; align-self:center}}
