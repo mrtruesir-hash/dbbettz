@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" aria-hidden="true">
+  <defs>
+    <linearGradient id="wl-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3b40"/>
+      <stop offset=".5" stop-color="#1c1c20"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <linearGradient id="wl-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7591"/>
+      <stop offset=".45" stop-color="#ff335c"/>
+      <stop offset="1" stop-color="#b3164a"/>
+    </linearGradient>
+    <linearGradient id="wl-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d9de"/>
+    </linearGradient>
+    <radialGradient id="wl-glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff335c" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff335c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="80" cy="141" rx="56" ry="9" fill="url(#wl-glow)"/>
+  <ellipse cx="80" cy="140" rx="48" ry="5" fill="#000" opacity=".55"/>
+  <!-- cards peeking out of the wallet -->
+  <g transform="rotate(-11 70 52)">
+    <rect x="30" y="26" width="82" height="52" rx="8" fill="url(#wl-pink)"/>
+    <rect x="30" y="36" width="82" height="8" fill="#7a0f31" opacity=".55"/>
+  </g>
+  <g transform="rotate(7 92 54)">
+    <rect x="52" y="30" width="80" height="50" rx="8" fill="url(#wl-card)"/>
+    <rect x="62" y="42" width="16" height="12" rx="3" fill="#ff335c"/>
+    <rect x="84" y="45" width="34" height="5" rx="2.5" fill="#bdbdc4"/>
+  </g>
+  <!-- wallet body -->
+  <rect x="18" y="52" width="122" height="84" rx="17" fill="url(#wl-body)"/>
+  <rect x="18.75" y="52.75" width="120.5" height="82.5" rx="16.25" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.5"/>
+  <path d="M30 60.5 H128" stroke="#ffffff" stroke-opacity=".22" stroke-width="2" stroke-linecap="round"/>
+  <rect x="26" y="60" width="106" height="68" rx="11" fill="none" stroke="#ff335c" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <!-- clasp -->
+  <rect x="96" y="78" width="52" height="34" rx="12" fill="url(#wl-pink)"/>
+  <rect x="99" y="80" width="46" height="12" rx="6" fill="#ffffff" opacity=".2"/>
+  <circle cx="113" cy="95" r="7" fill="#ffffff"/>
+  <circle cx="113" cy="95" r="3.2" fill="#ff335c"/>
+</svg>

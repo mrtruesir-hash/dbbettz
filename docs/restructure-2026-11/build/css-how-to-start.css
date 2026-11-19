@@ -1,0 +1,30 @@
+/* ---- /how-to-start/ (restructure 2026-11): step frames, anchors, CTA disclosure ----
+   Used by public/how-to-start/index.html and public/en/how-to-start/index.html.
+   Append AFTER the .shot-box block in styles.css (the selectors below rely on source order
+   only where noted; specificity is higher than the base rules anyway). */
+
+/* anchored sections and headings clear the 66px sticky header */
+.jump-target{scroll-margin-top:72px}
+
+/* numbered step frames: .shot-row grid + one .shot-step (frame + caption) per step */
+.shot-row.shot-steps{margin-top:18px; max-width:none}
+.shot-step{min-width:0}
+.shot-step .shot-cap{max-width:24ch; margin-left:auto; margin-right:auto}
+.shot-step .shot-cap b{color:var(--text)}
+@media (min-width:900px){.shot-row.shot-steps{grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; max-width:920px}
+  .shot-row.shot-steps .shot-box{max-width:200px}}
+
+/* phones: one swipeable row of frames instead of a tall grid (the numbered list above stays the main text) */
+@media (max-width:640px){
+  .shot-row.shot-steps{grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:44%; gap:12px;
+    overflow-x:auto; overscroll-behavior-x:contain; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; padding-bottom:8px}
+  .shot-step{scroll-snap-align:start}
+}
+
+/* real screenshots smaller than the frame (android-1..6.webp are 184x310): natural size, centred */
+.shot-box.shot-natural img{position:relative; inset:auto; width:auto; height:auto; max-width:calc(100% - 16px); max-height:calc(100% - 36px); object-fit:contain; border-radius:14px}
+
+/* "We earn a commission from DBBet" line under CTAs */
+.cta-disclosure{font-size:13px; margin:12px 0 0}
+.cta-disclosure a{text-decoration:underline; text-underline-offset:2px}
+.cta-banner p.cta-disclosure{margin:16px 0 0; font-size:13px; color:rgba(255,255,255,.85)}

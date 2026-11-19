@@ -1,0 +1,17 @@
+/* ---- /bonuses/ and /en/bonuses/ (merge into styles.css after the "bonus detail sections" block) ---- */
+/* group wrappers keep the old #betting / #casino anchors working under the sticky header */
+.bonus-group{scroll-margin-top:84px}
+/* detail sections: tighter heading rhythm (chip, h2, three h3 blocks) */
+.bonus-detail .chip{margin-bottom:4px}
+.bonus-detail .prose > h2{margin-top:10px}
+.bonus-detail .prose h3{font-size:16px; margin:20px 0 8px}
+.bonus-detail .data-table table{min-width:0}   /* 3 short columns fit a 360px phone, no inner scroll */
+.prose .bonus-cta{margin:22px 0 0}
+/* FIX (affects every page that puts a .btn inside .prose, including the COMPONENTS.md section-5 snippet):
+   ".prose a{color:var(--accent)}" beats ".btn-primary{color:#fff}", so the label was pink on pink (invisible). */
+.prose a.btn-primary,.prose a.btn-outline,.prose a.btn-ghost{color:#fff}
+/* small 18+ / commission line under each CTA */
+.prose .cta-note,.cta-banner .cta-note{font-size:13px; margin:10px 0 0}
+.cta-banner .cta-note{margin-top:14px; color:rgba(255,255,255,.85)}
+.page-hero .hero-note a,.prose .cta-note a,.cta-banner .cta-note a{text-decoration:underline; text-underline-offset:2px}
+.prose .notice ul{margin-bottom:0}

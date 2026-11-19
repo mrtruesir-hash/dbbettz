@@ -1,0 +1,7 @@
+/* ---- how-to-bet: bet-types section (merge into styles.css after the data-table / info-grid blocks) ---- */
+/* narrow 2-column data table that fits a phone without side-scrolling */
+.data-table.fit table{min-width:0}
+@media (max-width:480px){.data-table.fit th,.data-table.fit td{padding:10px 12px}}
+/* example line under a definition inside an info card */
+.info-item .ex{margin-top:8px; color:var(--text)}
+.info-item .ex b{color:var(--accent)}

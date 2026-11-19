@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" aria-hidden="true">
+  <defs>
+    <linearGradient id="hp-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#404046"/>
+      <stop offset=".5" stop-color="#1d1d21"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <linearGradient id="hp-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7591"/>
+      <stop offset=".45" stop-color="#ff335c"/>
+      <stop offset="1" stop-color="#b3164a"/>
+    </linearGradient>
+    <radialGradient id="hp-glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff335c" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff335c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="80" cy="146" rx="54" ry="8" fill="url(#hp-glow)"/>
+  <ellipse cx="80" cy="145" rx="44" ry="4.5" fill="#000" opacity=".55"/>
+  <!-- headband -->
+  <path d="M33 92 V80 A47 47 0 0 1 127 80 V92" fill="none" stroke="url(#hp-dark)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M36.5 78 A43.5 43.5 0 0 1 123.5 78" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- chat bubble -->
+  <path d="M66 52 H94 A12 12 0 0 1 106 64 V78 A12 12 0 0 1 94 90 H75 L64 100 V90 A12 12 0 0 1 54 78 V64 A12 12 0 0 1 66 52 Z" fill="url(#hp-pink)"/>
+  <path d="M66 55.5 H94" stroke="#ffffff" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="68" cy="71" r="4.6" fill="#ffffff"/>
+  <circle cx="80" cy="71" r="4.6" fill="#ffffff"/>
+  <circle cx="92" cy="71" r="4.6" fill="#ffffff"/>
+  <!-- ear cups -->
+  <rect x="17" y="82" width="31" height="48" rx="14" fill="url(#hp-dark)"/>
+  <rect x="17.75" y="82.75" width="29.5" height="46.5" rx="13.25" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.5"/>
+  <rect x="112" y="82" width="31" height="48" rx="14" fill="url(#hp-dark)"/>
+  <rect x="112.75" y="82.75" width="29.5" height="46.5" rx="13.25" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.5"/>
+  <rect x="42" y="88" width="10" height="36" rx="5" fill="url(#hp-pink)"/>
+  <rect x="108" y="88" width="10" height="36" rx="5" fill="url(#hp-pink)"/>
+  <!-- microphone -->
+  <path d="M30 128 Q32 141 58 139" fill="none" stroke="#2c2c31" stroke-width="5" stroke-linecap="round"/>
+  <rect x="56" y="133" width="17" height="12" rx="6" fill="url(#hp-pink)"/>
+  <rect x="59" y="135" width="9" height="3" rx="1.5" fill="#ffffff" opacity=".45"/>
+</svg>

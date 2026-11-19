@@ -1,0 +1,33 @@
+/* /payments/ + /en/payments/ (restructure 2026-11). Merge into styles.css.
+   Both pages work without these rules (base classes: info-grid, data-table, shot-row);
+   these only tighten the phone layout. */
+
+/* method cards: 4 across on desktop, 2x2 on tablets and phones */
+.pay-methods{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.pay-methods{grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px}}
+.pay-methods .info-item{display:flex; flex-direction:column; align-items:flex-start; gap:8px}
+.pay-methods .info-item.is-bonus{border-color:var(--border-accent)}
+.pay-methods .pay-card{width:100%; max-width:140px; height:52px; margin-bottom:4px}
+.pay-methods .info-item .chip{margin:0}
+.pay-methods .info-item h3{margin:0}
+.pay-methods .go{margin-top:auto; padding-top:4px; font-size:13.5px; font-weight:700; color:var(--accent)}
+@media (max-width:480px){.pay-methods .info-item{padding:14px 12px} .pay-methods .info-item h3{font-size:14.5px} .pay-methods .info-item p{font-size:13px}}
+
+/* one compact table per method (rows: min / max / time / fees; columns: deposit / withdrawal):
+   2 across on desktop, stacked on phones, no inner scroll */
+.pay-tables{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 16px}
+@media (max-width:760px){.pay-tables{grid-template-columns:minmax(0,1fr)}}
+.pay-tables h3{font-size:17px; margin:18px 0 0}
+.pay-tables .data-table table{min-width:0; font-size:14px; table-layout:fixed}
+.pay-tables .data-table th:first-child{width:30%}
+.pay-tables .data-table tbody th{white-space:normal; font-weight:600; color:var(--muted)}
+@media (max-width:480px){.pay-tables .data-table th,.pay-tables .data-table td{padding:10px 9px} .pay-tables .data-table table{font-size:13.5px}}
+
+/* screenshot frames under each step list */
+.pay-steps{margin:6px 0 24px}
+
+/* small disclosure / date links next to CTAs */
+.page-hero .hero-note a,.cta-disc a,.cta-banner .cta-note a{text-decoration:underline; text-underline-offset:2px}
+.cta-disc{font-size:13px; margin:10px 0 0}
+.qa .a a{color:var(--accent)}
+.cta-banner .cta-note{font-size:13px; margin:16px 0 0}

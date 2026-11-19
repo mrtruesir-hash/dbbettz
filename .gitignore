@@ -1,2 +1,8 @@
 .wrangler/
 node_modules/
+
+# Restructure 2026-11: heavy internal files stay out of git (site images live in public/)
+docs/restructure-2026-11/originals/
+docs/restructure-2026-11/qa/
+docs/restructure-2026-11/carousel/
+docs/restructure-2026-11/hero/

@@ -1,0 +1,19 @@
+/* /casino/ + /en/casino/ (restructure 2026-11). Integrator: merge into styles.css after the game-tile / info-grid block. */
+
+/* empty game-tile frame for a game with no image yet (Space XY) */
+.gt-img.gt-empty{display:flex; align-items:center; justify-content:center; color:var(--muted);
+  background:radial-gradient(120% 120% at 20% 90%, rgba(255,51,92,.16), var(--surface-2) 70%)}
+.gt-img.gt-empty svg{width:30%; height:auto; opacity:.75}
+
+/* big Aviator card inside the crash section (uses h3, so it needs its own size) */
+.spot h3{font-size:clamp(22px,2.8vw,30px)}
+a.aviator-art{display:block}
+
+/* text links inside info items and feature lists */
+.info-item .go{display:inline-block; margin-top:10px; color:var(--accent); font-weight:700; font-size:14px}
+.info-item .go:hover{color:var(--accent-hover)}
+.feature-list a{color:var(--accent)}
+
+/* commission line under CTA rows */
+.cta-note{font-size:13px; color:var(--muted); margin:12px 0 0}
+.cta-note a{text-decoration:underline}
